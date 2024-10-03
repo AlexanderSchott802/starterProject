@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Newsletter page">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+        }
+
+        main {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        header {
+            padding: 10px;
+            color: maroon;
+        }
+
+        header>.top>span:nth-child(2) {
+            float: right;
+        }
+
+        header>h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 4rem;
+            font-weight: bold;
+            text-align: center;
+            border-top: 2px solid maroon;
+            padding-top: 1rem;
+            margin: 10px 0 5px 0;
+        }
+
+        header>h1>.subheader {
+            display: block;
+            font-size: 1.5rem;
+            border-top: 1px solid maroon;
+            padding-top: 1rem;
+            margin-top: 1rem;
+        }
+
+        .toph>img {
+            width: 100%;
+        }
+
+        /* cards */
+
+        .cards {
+            text-align: center;
+        }
+
+        .cards>div {
+            display: inline-block;
+            width: 30%;
+            background-color: #eee;
+            margin: 10px;
+            padding: 10px;
+            vertical-align: top;
+            height: 250px;
+        }
+
+        .cards>div>ul,
+        .cards>div>p {
+            text-align: left;
+        }
+
+        .cards>div>h1 {
+            background-color: white;
+            border: 1px solid white;
+            width: 60px;
+            height: 60px;
+            border-radius: 30px;
+            line-height: 60px;
+            display: inline-block;
+        }
+
+        blockquote {
+            font-size: 2rem;
+            color: maroon;
+            text-align: center;
+        }
+
+        blockquote::after,
+        blockquote::before {
+            content: '"';
+            font-size: 2rem;
+            color: gray;
+        }
+
+        table {
+            width: 98%;
+            margin: 10px;
+            border-collapse: collapse;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #eee;
+        }
+
+        table>thead {
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            background: rosybrown;
+        }
+
+        thead>th,
+        tbody td {
+            padding: 10px 0;
+        }
+
+        .highlighted {
+            background-color: thistle;
+            margin: 10px;
+            padding: 10px;
+            overflow: auto;
+        }
+
+        .highlighted>img {
+            border: 2px dashed green;
+            margin: 1rem;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="top">
+                <span>Lorem ipsum</span>
+                <span>January 27th, 2020</span>
+            </div>
+            <h1>
+                A Newsletter
+                <span class="subheader">Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+            </h1>
+        </header>
+        <section class="toph">
+            <img src="https://placehold.co/900x200" alt="place holder image sized 900x200">
+            <h1>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            </h1>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto rem enim cum hic ex quia laboriosam
+                dolores illum voluptatem earum. Mollitia omnis hic dolore voluptate inventore enim ad natus minus.
+            </p>
+            <ol>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, dolorem maxi </li>
+                <li>Voluptatum quidem sequi suscipit totam hic excepturi officia! Deserunt temporib </li>
+                <li>incidunt facilis soluta provident accusamus fuga eligendi veniam voluptatem.</li>
+            </ol>
+        </section>
+        <section class="cards">
+            <div class="card">
+                <h1>1</h1>
+                <h2>bla</h2>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet consectetur </li>
+                    <li>adipisicing elit. Vero,que </li>
+                    <li>illum minus, maiores neque nobis nisi minima </li>
+                </ul>
+            </div>
+            <div class="card">
+                <h1>2</h1>
+                <h2>bla bla</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita </p>
+            </div>
+            <div class="card">
+                <h1>3</h1>
+                <h2>bla bla bla</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita </p>
+            </div>
+        </section>
+        <blockquote>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur sed quia enim nulla amet a, in rerum
+        </blockquote>
+        <table>
+            <thead>
+                <tr>
+                    <th>header 1</th>
+                    <th>header 2</th>
+                    <th>header 3</th>
+                    <th>header 4</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lorem</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Ipsum</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Dolor</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>Emet</td>
+                </tr>
+            </tbody>
+        </table>
+        <section class="highlighted">
+            <img src="https://placehold.co/350X200" alt="Description here">
+            <header>Lorem ipsum dolumenda sed sit qui natus, obcaecati tempora et aut aspernatur </header>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor rem cum reprehenderit reiciendis magni
+                assumenda sed sit qui natus, obcaecati tempora et aut aspernatur amet alias repellat quasi debitis quod.
+            </p>
+        </section>
+    </main>
+</body>
+
+</html>

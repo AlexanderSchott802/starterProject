@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header, footer, .container, .sidebar, .maincontent, .one, .two, .three, .four, .five, .six, .seven, .eight{
+            border: 1px solid black;
+            padding: 1rem;
+            flex: 1;
+        }
+
+        .container, .one-five, .three-five, .six-eight{
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        .maincontent{
+            display: flex;
+            flex-flow: column nowrap;
+        }
+    </style>
+    <title>Layout2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">SIDEBAR</div>
+        <div class="main-content">
+            <header>HEADER</header>
+            <div class="one-five">
+                <div class="one-five-main">
+                    <div class="one">ONE</div>
+                    <div class="three-five">
+                        <div class="three">THREE</div>
+                        <div class="four">FOUR</div>
+                        <div class="five">FIVE</div>
+                    </div>
+                </div>
+                <div class="two">TWO</div>
+            </div>
+            <div class="six-eight">
+                <div class="six">SIX</div>
+                <div class="seven-eight">
+                    <div class="seven">SEVEN</div>
+                    <div class="eight">EIGHT</div>
+                </div>
+            </div>
+            <footer>FOOTER</footer>
+        </div>
+    </div>
+</body>
+</html>

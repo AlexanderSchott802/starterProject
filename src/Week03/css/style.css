@@ -1,0 +1,44 @@
+:root{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+}
+
+header nav ul{
+    border-top: 2px solid red;
+}
+
+ul.menu{
+    list-style: none;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid blue;
+    padding: 10px 0;
+}
+
+ul.menu > li{
+    display: inline;
+}
+
+ul.menu{
+    text-align: center;
+}
+
+
+ul.menu > li > a{
+    color: red;
+    text-decoration: none;
+}
+
+ul.menu a:hover{
+    color: blue;
+}
+
+ul.menu a:visited{
+    color:orange;
+}
+
+footer{
+    background: #000;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}

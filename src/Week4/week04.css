@@ -1,0 +1,67 @@
+header{
+    border: 2px solid blue;
+    padding: 1rem;
+}
+
+footer{
+    text-align: center;
+    background-color: #ccc;
+    padding: 1rem;
+}
+
+.hero{
+    height: 75vh;
+    background: url(https://images.unsplash.com/photo-1577024597452-03795a88277a?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsdCUyMGxha2UlMjBsYW5kc2NhcGV8ZW58MHx8MHx8fDA%3D) center / cover no-repeat fixed;
+
+    padding: 1rem;
+    color: white;
+}
+
+.hero > h1{
+    font-size: 4rem;
+}
+
+.hero > p{
+    font-size: 2rem;
+}
+
+.hero > button{
+    border-radius: 0.5rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    border: 2px solid white;
+    background-color: lightblue;
+    
+}
+
+.hero img{
+    float: right;
+    border-radius: 0.8rem;
+    border: 2px solid gray;
+    opacity: 0.75;
+    width: 25%;
+    margin: 10px;
+}
+
+main{
+    opacity: .7;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid blue;
+}
+
+th{
+    border-bottom: 2px solid green;
+}
+
+tbody tr:nth-child(even){
+    background-color: gray;
+}

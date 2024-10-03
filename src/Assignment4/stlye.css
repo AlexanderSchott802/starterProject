@@ -1,0 +1,147 @@
+:root{
+    box-sizing: border-box;
+}
+
+nav{
+    border-bottom: 1px solid rgb(84, 84, 84); 
+    background-color: #ddd;
+    display: flow-root;
+    color: salmon;
+}
+
+nav > ul{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0 1rem;
+}
+
+nav > ul > li{
+    display: inline;
+}
+
+nav > ul > li > b{
+    color: black;
+}
+
+nav > ul.pull-left > li{
+    padding-right: 1rem;
+}
+
+nav > ul.pull-right > li{
+    padding-left: 1rem;
+}
+
+.pull-right{
+    float: right;
+}
+
+.pull-left{
+    float: left;
+}
+
+main{
+    width: 75%;
+    margin: auto;
+}
+
+main > iframe{
+    float: right;
+    aspect-ratio: 16/9;
+    height: 80%;
+    margin: 1rem;
+}
+
+main > hr{
+    clear: both;
+}
+
+main > button{
+    color: white;
+    background-color: salmon;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+main > h1{
+    font-size: 3rem;
+}
+
+main > p{
+    color: gray;
+}
+
+.cards-flex-box{
+    display: flex;
+}
+
+.cards-flex-box div{
+    flex: 1;
+    border: 1px solid gray;
+}
+
+.cards-flex-box img{
+    width: 100%;
+}
+
+.cards-flex-box div:nth-child(1){
+    margin-right: 1rem;
+}
+
+.cards-flex-box div:last-child{
+    margin-left: 1rem;
+}
+
+.cards-flex-box > div > section{
+    padding: 1rem;
+    padding-top: 0px;
+}
+
+.cards-flex-box h3{
+    margin: 1rem 0;
+    padding: 0px;
+}
+
+section.WhatAreThey button{
+    color: white;
+    background-color: salmon;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem auto;
+    display: block;
+    width: 25%;
+}
+
+.links{
+    border-bottom: 1px solid rgb(84, 84, 84); 
+    background-color: #333;
+    display: flow-root;
+    color: salmon;
+}
+
+footer > div.links > ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0 1rem;
+    float: left;
+    display: flow-root;
+    margin-right: 20%;
+}
+
+footer > div.links > ul > li.list-header{
+    color: white;
+    font-weight: 4px;
+}
+
+.copy-footer div{
+    width: 50%;
+    text-align: center;
+}
+
+.copy-footer div.pull-left{
+    color: salmon;
+}

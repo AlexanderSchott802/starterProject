@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        :root{
+    box-sizing: border-box;
+}
+
+nav{
+    border-bottom: 1px solid rgb(84, 84, 84); 
+    background-color: #ddd;
+    display: flow-root;
+    color: salmon;
+}
+
+nav > ul{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0 1rem;
+}
+
+nav > ul > li{
+    display: inline;
+}
+
+nav > ul > li > b{
+    color: black;
+}
+
+nav > ul.pull-left > li{
+    padding-right: 1rem;
+}
+
+nav > ul.pull-right > li{
+    padding-left: 1rem;
+}
+
+.pull-right{
+    float: right;
+}
+
+.pull-left{
+    float: left;
+}
+
+main{
+    width: 75%;
+    margin: auto;
+}
+
+main > iframe{
+    float: right;
+    aspect-ratio: 16/9;
+    height: 80%;
+    margin: 1rem;
+}
+
+main > hr{
+    clear: both;
+}
+
+main > button{
+    color: white;
+    background-color: salmon;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin-right: 0.5rem;
+}
+
+main > h1{
+    font-size: 3rem;
+}
+
+main > p{
+    color: gray;
+}
+
+.cards-flex-box{
+    display: flex;
+}
+
+.cards-flex-box div{
+    flex: 1;
+    border: 1px solid gray;
+}
+
+.cards-flex-box img{
+    width: 100%;
+}
+
+.cards-flex-box div:nth-child(1){
+    margin-right: 1rem;
+}
+
+.cards-flex-box div:last-child{
+    margin-left: 1rem;
+}
+
+.cards-flex-box > div > section{
+    padding: 1rem;
+    padding-top: 0px;
+}
+
+.cards-flex-box h3{
+    margin: 1rem 0;
+    padding: 0px;
+}
+
+section.WhatAreThey button{
+    color: white;
+    background-color: salmon;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+    margin: 1rem auto;
+    display: block;
+    width: 25%;
+}
+
+.links{
+    border-bottom: 1px solid rgb(84, 84, 84); 
+    background-color: #333;
+    display: flow-root;
+    color: salmon;
+}
+
+footer > div.links > ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding: 0 1rem;
+    float: left;
+    display: flow-root;
+    margin-right: 20%;
+}
+
+footer > div.links > ul > li.list-header{
+    color: white;
+    font-weight: 4px;
+}
+
+.copy-footer div{
+    width: 50%;
+    text-align: center;
+}
+
+.copy-footer div.pull-left{
+    color: salmon;
+}
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="pull-left">
+            <li><b>Utah Mighty Five</b></li>
+            <li>One</li>
+            <li>Two</li>
+            <li>Three</li>
+            <li>Four</li>
+            <li>Five</li>
+        </ul>
+
+        <ul class="pull-right">
+            <li>Account</li>
+            <li>Login</li>
+        </ul>
+    </nav>
+
+    <main>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iKJ-TuDl8h0?si=vVdJw50JaXGFpane"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <h1>Close Your Eyes and Open Your Mind</h1>
+
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat repellat aut, ut, molestias harum eum
+            necessitatibus vero dolorem id nostrum, accusantium excepturi iusto maiores dolorum minus nihil praesentium
+            atque odio?
+        </p>
+        <button>Take a Tour</button>
+        <button>Start a free trial</button>
+        <hr>
+        <section class="WhatAreThey">
+            <h2>What are they?</h2>
+            <div class="cards-flex-box">
+                <div>
+                    <img src="https://images.unsplash.com/photo-1727344954274-76782f8b0bdb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+                        alt="">
+                    <section>
+                        <h3>Bryce Canyon National Park</h3>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem aperiam veritatis libero
+                        dignissimos, voluptatum quisquam at error. Fuga commodi, odio dolorem pariatur porro, facere
+                        facilis, illum illo temporibus corrupti qui?
+                    </section>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1727344954274-76782f8b0bdb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+                        alt="">
+                    <section>
+                        <h3>Zion National Park</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.Consequatur enim alias sed amet
+                        cupiditate optio totam hic ea velit, eius ut assumenda accusantium veritatis nemo aut delectus
+                        illum quisquam quis.
+                    </section>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1727344954274-76782f8b0bdb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0fHx8ZW58MHx8fHx8"
+                        alt="">
+                    <section>
+                        <h3>Arches National Park</h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora esse distinctio dolorem sunt
+                        illum ratione ut neque aspernatur, blanditiis ad dolore officiis omnis quos. Veritatis
+                        aliquid quaerat necessitatibus illum culpa?
+                    </section>
+
+
+                </div>
+            </div>
+            <button>Remaining Two</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="links">
+            <ul>
+                <li class="list-header">Offices</li>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+            </ul>
+            <ul>
+                <li class="list-header">Links</li>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+            </ul>
+            <ul>
+                <li class="list-header">Contact</li>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+            </ul>
+            <ul>
+                <li class="list-header">Locations</li>
+                <li>One</li>
+                <li>Two</li>
+                <li>Three</li>
+                <li>Four</li>
+            </ul>
+        </div>
+        <div class="copy-footer">
+            <div class="pull-left">Legal&nbsp;&nbsp;Parter&nbsp;&nbsp;Explore</div>
+            <div class="pull-right"><b>&copy; All rights reserved</b></div>
+        </div>
+    </footer>
+</body>
+
+</html>
